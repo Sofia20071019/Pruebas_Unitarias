@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .DS_Store
+# Documento local de evidencia (no se sube al repositorio)
+DOCUMENTACION_PRUEBAS_UNITARIAS.docx
