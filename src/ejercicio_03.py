@@ -1,5 +1,3 @@
-import pytest
-from src.ejercicio_03 import celsius_a_fahrenheit
 
 def celsius_a_fahrenheit(celsius):
     if type(celsius) not in (int, float):

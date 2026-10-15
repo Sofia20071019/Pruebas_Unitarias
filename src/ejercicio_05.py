@@ -1,5 +1,3 @@
-import pytest
-from src.ejercicio_05 import es_mayor_de_edad
 
 def es_mayor_de_edad(edad):
     if type(edad) is not int:

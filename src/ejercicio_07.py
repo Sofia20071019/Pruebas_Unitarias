@@ -1,32 +1,11 @@
-import pytest
-from src.ejercicio_07 import factorial
+def factorial(n):
+    if type(n) is not int:
+        raise TypeError("El argumento debe ser un número entero")
+    if n < 0:
+        raise ValueError("El factorial no está definido para números negativos")
 
+    resultado = 1
+    for i in range(2, n + 1):
+        resultado *= i
 
-def test_factorial_de_0():
-    n, esperado = 0, 1
-    resultado = factorial(n)
-    assert resultado == esperado
-
-
-def test_factorial_de_1():
-    n, esperado = 1, 1
-    resultado = factorial(n)
-    assert resultado == esperado
-
-
-def test_factorial_de_5():
-    n, esperado = 5, 120
-    resultado = factorial(n)
-    assert resultado == esperado
-
-
-def test_factorial_de_7():
-    n, esperado = 7, 5040
-    resultado = factorial(n)
-    assert resultado == esperado
-
-
-def test_factorial_negativo_lanza_valueerror():
-    n = -3
-    with pytest.raises(ValueError):
-        factorial(n)
+    return resultado

@@ -1,5 +1,3 @@
-import pytest
-from src.ejercicio_02 import es_par
 
 def es_par(numero):
     if type(numero) is not int:

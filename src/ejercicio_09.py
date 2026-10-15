@@ -1,32 +1,10 @@
-import pytest
-from src.ejercicio_09 import es_palindromo
+def es_palindromo(cadena):
+    if not isinstance(cadena, str):
+        raise TypeError("El parámetro debe ser una cadena de texto")
 
+    limpia = "".join(cadena.split()).lower()
 
-def test_palabra_palindroma():
-    cadena, esperado = "radar", True
-    resultado = es_palindromo(cadena)
-    assert resultado is esperado
+    if len(limpia) == 0:
+        return False
 
-
-def test_frase_con_espacios_y_mayusculas():
-    cadena, esperado = "Anita lava la tina", True
-    resultado = es_palindromo(cadena)
-    assert resultado is esperado
-
-
-def test_palabra_no_palindroma():
-    cadena, esperado = "software", False
-    resultado = es_palindromo(cadena)
-    assert resultado is esperado
-
-
-def test_solo_espacios_es_false():
-    cadena, esperado = " ", False
-    resultado = es_palindromo(cadena)
-    assert resultado is esperado
-
-
-def test_numero_lanza_typeerror():
-    cadena = 1001
-    with pytest.raises(TypeError):
-        es_palindromo(cadena)
+    return limpia == limpia[::-1]

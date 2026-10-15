@@ -1,5 +1,3 @@
-import pytest
-from src.ejercicio_04 import aplicar_descuento
 
 def aplicar_descuento(precio, porcentaje_descuento):
     if not (isinstance(precio, (int, float)) and isinstance(porcentaje_descuento, (int, float))):

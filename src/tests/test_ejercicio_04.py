@@ -1,5 +1,5 @@
 import pytest
-from ejercicio_04 import aplicar_descuento
+from src.ejercicio_04 import aplicar_descuento
 
 def test_descuento_general():
     precio, descuento, esperado = 100000, 20, 80000.0
