@@ -1,3 +1,15 @@
+"""================================================================================
+ejercicio_11: División Segura
+
+Función que efectúa la operación de división devolviendo el resultado como float. Lanza explícitamente ZeroDivisionError si el divisor es 0 y TypeError si algún operando no es numérico.
+
+Parte 1: Enunciado de la solución (según la guía del taller)
+Parte 2: Código que resuelve la solución
+Parte 3: Pruebas unitarias (en src/tests/test_ejercicio_11.py)
+================================================================================
+
+"""
+
 import pytest
 from src.ejercicio_11 import division_segura
 
