@@ -1,14 +1,4 @@
-"""================================================================================
-ejercicio_07: Cálculo del Factorial
-
-Función que calcula el factorial de un número entero no negativo (n!). 0! = 1 y 1! = 1. Lanza ValueError para negativos y TypeError si no es entero.
-
-Parte 1: Enunciado de la solución (según la guía del taller)
-Parte 2: Código que resuelve la solución
-Parte 3: Pruebas unitarias (en src/tests/test_ejercicio_07.py)
-================================================================================
-
-"""
+"""ejercicio7: Cálculo del Factorial"""
 
 import pytest
 from src.ejercicio_07 import factorial

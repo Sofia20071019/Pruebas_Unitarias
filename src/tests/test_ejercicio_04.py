@@ -1,14 +1,4 @@
-"""================================================================================
-ejercicio_04: Cálculo de Descuento Comercial
-
-Función que devuelve el precio final tras aplicar un porcentaje de descuento. Valida que precio >= 0 y que el descuento esté entre 0 y 100 inclusive, rechazando no numéricos y booleanos.
-
-Parte 1: Enunciado de la solución (según la guía del taller)
-Parte 2: Código que resuelve la solución
-Parte 3: Pruebas unitarias (en src/tests/test_ejercicio_04.py)
-================================================================================
-
-"""
+"""ejercicio4: Cálculo de Descuento Comercial"""
 
 import pytest
 from src.ejercicio_04 import aplicar_descuento

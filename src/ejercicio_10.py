@@ -1,14 +1,4 @@
-"""================================================================================
-ejercicio_10: Clasificación de Calificaciones SENA
-
-Función que devuelve la descripción cualitativa del desempeño académico sobre una escala de 0.0 a 5.0 (Excelente, Bueno, Aceptable, Deficiente). Lanza ValueError fuera de escala.
-
-Parte 1: Enunciado de la solución (según la guía del taller)
-Parte 2: Código que resuelve la solución
-Parte 3: Pruebas unitarias (en src/tests/test_ejercicio_10.py)
-================================================================================
-
-"""
+"""ejercicio10: Clasificación de Calificaciones SENA"""
 
 def clasificar_nota(nota):
     if type(nota) not in (int, float):

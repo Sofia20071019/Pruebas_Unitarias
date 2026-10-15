@@ -1,14 +1,4 @@
-"""================================================================================
-ejercicio_12: Validación de Diccionario de Usuario
-
-Función que recibe un diccionario con información de registro y valida que contenga obligatoriamente las claves id (entero positivo), nombre (cadena no vacía) y activo (booleano). Devuelve una copia con campo estado_registro: VALIDADO.
-
-Parte 1: Enunciado de la solución (según la guía del taller)
-Parte 2: Código que resuelve la solución
-Parte 3: Pruebas unitarias (en src/tests/test_ejercicio_12.py)
-================================================================================
-
-"""
+"""ejercicio12: Validación de Diccionario de Usuario"""
 
 import pytest
 from src.ejercicio_12 import procesar_usuario

@@ -1,14 +1,4 @@
-"""================================================================================
-ejercicio_08: Obtener el Número Mayor de una Lista
-
-Función que recibe una lista de números y devuelve el valor más alto sin usar la función nativa max(). Valida que sea lista, no vacía y que todos los elementos sean numéricos.
-
-Parte 1: Enunciado de la solución (según la guía del taller)
-Parte 2: Código que resuelve la solución
-Parte 3: Pruebas unitarias (en src/tests/test_ejercicio_08.py)
-================================================================================
-
-"""
+"""ejercicio8: Obtener el Número Mayor de una Lista"""
 
 import pytest
 from src.ejercicio_08 import obtener_mayor
